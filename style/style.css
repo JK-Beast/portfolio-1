@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+*{
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+ /* up and down animation */
+
+ .u-d{
+    animation: updown 2s infinite;
+    
+}
+@keyframes updown{
+    0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+
+
+   /* down and up animation */
+
+.d-u{
+    animation: downup 2s infinite;
+    
+}
+@keyframes downup{
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* Nav Bar */
+
+.nav{
+   padding: 10px;
+   padding-right: 100px;
+   gap: 50px;
+
+}
+.nav-item a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.9s;
+}
+.nav-item a:hover{
+    color: darkblue;
+    text-decoration: underline;
+    transition: 0.2s;
+    transform-origin: center;
+}
+
+/* Nav bar End here */
+
+/* Roll  */
+.roll-pic .row .col h1{
+    
+   margin-bottom: 30px;
+}
+.roll-pic .row .col span{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+/* Roll And pic */
+.roll-pic{
+    margin-top: 250px;
+    font-size: large;
+    font-weight: 500;
+    
+}
+
+
+
+
+/* pic */
+.roll-pic .row .col img{
+    height: 450px;
+    width: 300px;
+    margin-left: 250px;
+    position: relative;
+    top: 0px;
+    
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Skills */
+
+.skills{
+    
+    margin-top: 200px;
+    
+    border-radius: 30px;
+   
+    align-content: center;
+    
+  
+}
+.skills h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(8, 8, 52);
+    padding-bottom: 50px;
+    margin-left: 100px ;
+}
+
+/* skills icon  */
+.html{
+  color: orangered;
+  margin-left: 70px;
+  
+}
+.css{
+ color: blue;
+ margin-left: 70px;
+}
+.js{
+  color:rgb(230, 230, 22);
+  margin-left: 70px;
+}
+.phython{
+    margin-left: 70px;
+    color: #306998;
+
+}
+.php{
+  color: skyblue;
+  margin-left: 70px;
+}
+.react{
+  color: rgb(78, 78, 216);
+  margin-left: 70px;
+}
+
+/* Contact form */
+#form{
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    border-radius: 0.375rem;
+}
+.form-submit {
+    background-color: #007bff;
+    color: white;
+    border-radius: 0.375rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.form-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* home btn */
+.home button{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    color:white;
+    background-color: #0056b3;
+    border: none;
+    margin-bottom: 100px;
+}
+.home{
+    margin-left: 10px;
+   
+}
+
+.home a:hover{
+    background-color: #007bff;
+
+}

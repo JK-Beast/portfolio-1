@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- animate css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--normal css  -->
+
+    <link rel="stylesheet" href="style/style.css">
+
+  
+    <!-- Aos animation Link -->
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  
+    <!-- aos js link -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap 5 -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Bootstrap 5 js script  -->
+
+    <script  defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <!-- fontawesome link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Nav bar Start  -->
+  <ul class="nav justify-content-end" data-aos="fade-right" id="home">
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#skills-selection">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#form">Contact</a>
+    </li>
+  </ul>
+  <!-- Nav bar End  -->
+
+  <!-- Roll & pic start  -->
+  
+  <div class="container roll-pic">
+    <div class="row">
+      <div class="col" data-aos="zoom-in-down">
+        <h1 class="u-d">I'm a <span>Web Developer</span></h1>
+        <p data-aos="fade-down">
+          Turning your ideas into interactive, stunning websites that speak your brand's language.
+          Whether you're a startup or an established business, I create functional, user-friendly designs to elevate your online presence.
+          Let's build something amazing together!
+        </p>
+      </div>
+      <div class="col">
+        <img src="assets/man.png" alt="" data-aos="fade-right">
+      </div>
+    </div>
+  </div>
+  <!-- Roll And pics end  -->
+
+
+  <!-- Skill start  -->
+  
+  <div class="container skills" id="skills-selection">
+    <h1>SKILLS :</h1>
+    <div class="row">
+      <div class="col u-d">
+        <i class="fa-brands fa-html5 fa-5x html" data-aos="fade-down"></i>
+      </div>
+      <div class="col d-u">
+        <i class="fa-brands fa-css3 css fa-5x" data-aos="fade-up"></i>
+      </div>
+      <div class="col u-d js">
+        <i class="fa-brands fa-js js fa-5x" data-aos="fade-down"></i>
+      </div>
+      <div class="col d-u phython">
+        <i class="fa-brands fa-python phython fa-5x" data-aos="fade-up"></i>
+      </div>
+      <div class="col u-d php">
+        <i class="fa-brands fa-php fa-5x" data-aos="fade-down"></i>
+      </div>
+      <div class="col d-u react">
+        <i class="fa-brands fa-react fa-5x" data-aos="fade-up"></i>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Skill end -->
+
+
+
+
+
+<!-- Contact form -->
+
+<div class="container" id="form">
+  <div class="contact-form">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form action="#" method="post">
+          <div class="mb-3">
+              <label for="name" class="form-label  ">Name</label>
+              <input type="text" class="form-control  " id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label " >Email address</label>
+              <input type="email" class="form-control  " id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+              <label for="message" class="form-label  ">Message</label>
+              <textarea class="form-control data-aos="fade-up" " id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div class="text-center  ">
+              <button type="submit" class="form-submit  ">Send Message</button>
+          </div>
+      </form>
+  </div>
+</div>
+<!-- Contact form End here -->
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col home">
+      
+      <button onclick="window.location='#home'"
+        <i class="fa-solid fa-angle-up fa-2x"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--  aos -->
+<script>
+  AOS.init({
+    duration: 1200, 
+    once: true,     
+    offset: 100,   
+  });
+</script>
+
+</body>
+</html>
